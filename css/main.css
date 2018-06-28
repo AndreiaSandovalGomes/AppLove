@@ -15,11 +15,149 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
   vertical-align: middle;
 }
+
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.header {
+  display: flex;
+  background-color: white;
+  height: 90px;
+  width: 100%;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+  padding-left: 162px;
+  justify-content: space-between;
+  padding-right: 140px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../assets/images/bg-home.jpg");
+  background-position: -10px -14px;
+  background-repeat: no-repeat;
+  height: 505px;
+  color: white;
+}
+
+.banner-subtitle {
+  margin-top: 70px;
+  font-size: 22.5px;
+}
+
+.banner-title {
+  margin-top: 40px;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.banner-text {
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.green-button {
+  background-color: #2DB267;
+  margin-top: 58px;
+  display: inline-block;
+  font-size: 13.5px;
+  color: white;
+  padding: 10px 20px;
+}
+
+.services {
+  background-color: #f17c72;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding-bottom: 60px;
+}
+
+.services-title {
+  margin-top: 65px;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.services-subtitle {
+  font-size: 15.3px;
+  margin-top: 22px;
+}
+
+.services-images-container {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  margin-top: 80px;
+}
+
+.services-image-title {
+  font-size: 12px;
+  margin-top: 23px;
+  margin-bottom: 0px;
+}
+
+.services-image-subtitle {
+  margin: 0px;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.work-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 850px;
+  margin: 70px auto;
+}
+
+.work-images img {
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: #373B47;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 8px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container {
   width: 1200px;
@@ -56,6 +194,7 @@ img {
   margin: 0px;
 }
 
+
 a {
   color: #373B47;
   text-decoration: none;
@@ -69,5 +208,16 @@ a:hover {
   text-transform: uppercase;
 }
 
-/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+
+
+
+
+
+
+
+
+
+
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
